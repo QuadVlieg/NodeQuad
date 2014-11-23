@@ -1,0 +1,25 @@
+{
+  "name": "NodeQuad",
+  "version": "0.0.1",
+  "description": "Node.js webserver and data collecter / emitter for QuadVlieg.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/QuadVlieg/NodeQuad.git"
+  },
+  "author": "Lieuwe Rooijakkers <lieuwerooijakkers@gmail.com> (http://lieuwex.github.io/)",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/QuadVlieg/NodeQuad/issues"
+  },
+  "homepage": "https://github.com/QuadVlieg/NodeQuad",
+  "dependencies": {
+    "express": "^4.10.2",
+    "express-handlebars": "^1.1.0",
+    "lodash": "^2.4.1",
+    "socket.io": "^1.2.1"
+  }
+}
